@@ -6,7 +6,7 @@ the variable foo is initialized with a value "abc", but then in the function bar
 
 2. Challenge 2:
   - Answer: 
-  A --> wrong, C is correct.
+  A 
   - Explanation: 
   function example has a parameter (a). It sets the value of variable a to 10. The code invoked the function with parameter a, which refers to the variable, now set to 10. and then a console.log also prints a. Correct answer is A.
 
@@ -27,6 +27,6 @@ the variable foo is initialized with a value "abc", but then in the function bar
 
 5. Bonus - Challenge 5:
   - Answer: 
-  A --> wrong it's C
+  A 
   - Explanation: 
   first console.log is printing rabbit1. Rabbit1 is an object with Bob and 30 as values. Second console.log is printing rabbit2 which invokes the function magicHat with argument rabbit1. the content of the function updates the properties of rabbit1. Age is first changed to 10 but then changed again to 20. Name is changed to Ada.
